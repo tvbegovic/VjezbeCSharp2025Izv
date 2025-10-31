@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatumiRodenja", "DatumiRode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaniMjeseca", "DaniMjeseca\DaniMjeseca.csproj", "{22614A44-D81D-4749-916F-882B061EAA71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Djelitelji", "Djelitelji\Djelitelji.csproj", "{C65625F7-4ECA-41E6-B9ED-ABAC680129D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Djelitelji_dopetlja", "Djelitelji_dopetlja\Djelitelji_dopetlja.csproj", "{95C84B6A-EE19-4DF6-9D83-B2EC212EAB00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{22614A44-D81D-4749-916F-882B061EAA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22614A44-D81D-4749-916F-882B061EAA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22614A44-D81D-4749-916F-882B061EAA71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65625F7-4ECA-41E6-B9ED-ABAC680129D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65625F7-4ECA-41E6-B9ED-ABAC680129D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65625F7-4ECA-41E6-B9ED-ABAC680129D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65625F7-4ECA-41E6-B9ED-ABAC680129D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C84B6A-EE19-4DF6-9D83-B2EC212EAB00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C84B6A-EE19-4DF6-9D83-B2EC212EAB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C84B6A-EE19-4DF6-9D83-B2EC212EAB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C84B6A-EE19-4DF6-9D83-B2EC212EAB00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
