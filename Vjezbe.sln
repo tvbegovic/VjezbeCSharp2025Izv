@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Djelitelji", "Djelitelji\Dj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Djelitelji_dopetlja", "Djelitelji_dopetlja\Djelitelji_dopetlja.csproj", "{95C84B6A-EE19-4DF6-9D83-B2EC212EAB00}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IzracunKamata", "IzracunKamata\IzracunKamata.csproj", "{258E3AB8-33EE-420C-B992-2B309A557242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtplataKredita", "OtplataKredita\OtplataKredita.csproj", "{3C4265D7-6365-4841-AC6E-2B27BF9818FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{95C84B6A-EE19-4DF6-9D83-B2EC212EAB00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95C84B6A-EE19-4DF6-9D83-B2EC212EAB00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95C84B6A-EE19-4DF6-9D83-B2EC212EAB00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258E3AB8-33EE-420C-B992-2B309A557242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258E3AB8-33EE-420C-B992-2B309A557242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258E3AB8-33EE-420C-B992-2B309A557242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258E3AB8-33EE-420C-B992-2B309A557242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C4265D7-6365-4841-AC6E-2B27BF9818FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C4265D7-6365-4841-AC6E-2B27BF9818FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C4265D7-6365-4841-AC6E-2B27BF9818FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C4265D7-6365-4841-AC6E-2B27BF9818FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
