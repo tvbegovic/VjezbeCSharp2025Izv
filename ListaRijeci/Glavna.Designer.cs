@@ -117,6 +117,7 @@
             this.btnDodajVise.TabIndex = 1;
             this.btnDodajVise.Text = "Dodaj";
             this.btnDodajVise.UseVisualStyleBackColor = true;
+            this.btnDodajVise.Click += new System.EventHandler(this.btnDodajVise_Click);
             // 
             // txtViseRijeci
             // 
@@ -136,6 +137,7 @@
             this.btnUkloni.TabIndex = 3;
             this.btnUkloni.Text = "Ukloni";
             this.btnUkloni.UseVisualStyleBackColor = true;
+            this.btnUkloni.Click += new System.EventHandler(this.btnUkloni_Click);
             // 
             // lstRijeci
             // 

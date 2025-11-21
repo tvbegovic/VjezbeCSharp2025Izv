@@ -49,5 +49,22 @@ namespace ListaRijeci
             rijeci.Insert(pozicija, rijec);
             OsvjeziListBox();
         }
+
+        private void btnDodajVise_Click(object sender, EventArgs e)
+        {
+            string[] viseRijeci = txtViseRijeci.Text.Split(' ');
+            rijeci.AddRange(viseRijeci);
+            OsvjeziListBox();
+        }
+
+        private void btnUkloni_Click(object sender, EventArgs e)
+        {
+            int index = lstRijeci.SelectedIndex;
+            if(index >= 0)
+            {
+                rijeci.RemoveAt(index);
+                OsvjeziListBox();
+            }
+        }
     }
 }
