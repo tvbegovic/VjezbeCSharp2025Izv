@@ -183,6 +183,7 @@
             this.btnSpremi.TabIndex = 50;
             this.btnSpremi.Text = "Spremi";
             this.btnSpremi.UseVisualStyleBackColor = true;
+            this.btnSpremi.Click += new System.EventHandler(this.btnSpremi_Click);
             // 
             // btnUcitaj
             // 
@@ -192,6 +193,7 @@
             this.btnUcitaj.TabIndex = 51;
             this.btnUcitaj.Text = "Učitaj";
             this.btnUcitaj.UseVisualStyleBackColor = true;
+            this.btnUcitaj.Click += new System.EventHandler(this.btnUcitaj_Click);
             // 
             // Glavna
             // 

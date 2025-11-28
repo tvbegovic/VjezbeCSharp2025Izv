@@ -60,5 +60,37 @@ namespace Klase
             dgvIgre.DataSource = null;
             dgvIgre.DataSource = igre;
         }
+
+        private void btnSpremi_Click(object sender, EventArgs e)
+        {
+            StreamWriter datoteka = new StreamWriter("igre.txt");
+            foreach (var igra in igre)
+            {
+                datoteka.WriteLine($"{igra.Naziv};{igra.Opis};{igra.Vrsta};{igra.DatumIzdavanja};{igra.Cijena};{igra.Izdavac}");
+            }
+            datoteka.Close();
+        }
+
+        private void btnUcitaj_Click(object sender, EventArgs e)
+        {
+            string[] redci = File.ReadAllLines("igre.txt");
+            foreach (var redak in redci)
+            {
+                string[] stupci = redak.Split(';');
+                Igra igra = new Igra();
+                igra.Naziv = stupci[0];
+                igra.Opis = stupci[1];
+                igra.Vrsta = stupci[2];
+                bool ok = DateTime.TryParse(stupci[3], out DateTime datum);
+                if (ok)
+                    igra.DatumIzdavanja = datum;
+                ok = double.TryParse(stupci[4], out double cijena);
+                if (ok)
+                    igra.Cijena = cijena;
+                igra.Izdavac = stupci[5];
+                igre.Add(igra);
+            }
+            AzurirajGrid();
+        }
     }
 }

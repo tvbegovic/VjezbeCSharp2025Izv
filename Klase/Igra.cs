@@ -31,7 +31,14 @@ namespace Klase
 
         public string Opis { get => opis; set => opis = value; }
         public string Vrsta { get => vrsta; set => vrsta = value; }
-        public DateTime DatumIzdavanja { get => datumIzdavanja; set => datumIzdavanja = value; }
+        public DateTime DatumIzdavanja { get => datumIzdavanja; 
+            set 
+            {
+                if (value > DateTime.Now)
+                    throw new ArgumentException("Datum ne smije biti u budućnosti");
+                datumIzdavanja = value; 
+            } 
+        }
         public double Cijena { get => cijena;   
             set 
             {
